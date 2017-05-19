@@ -15,3 +15,4 @@ This project is dedicated to practice C Programming. It involves various algorit
 		-- quadratic.c [C program for solving quadratic equation]
 		-- palindrome_string.c [Write a c program to check given string is palindrome string or not]
 		-- palindrome_number.c [Write a c program to check given number is palindrome number or not]
+		-- strong_number.c [Write a c program to check given number is strong number or not]

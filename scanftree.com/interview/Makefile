@@ -15,6 +15,7 @@ all:
 	gcc $(SRC)/quadratic.c -lm -o $(OUTPUT)/quadratic
 	gcc $(SRC)/palindrome_string.c -o $(OUTPUT)/palindrome_string
 	gcc $(SRC)/palindrome_number.c -o $(OUTPUT)/palindrome_number
+	gcc $(SRC)/strong_number.c -o $(OUTPUT)/strong_number
 
 # Cleans all binaries stored in __output directory
 clean:

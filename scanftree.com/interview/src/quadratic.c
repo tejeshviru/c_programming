@@ -11,7 +11,7 @@ int main(){
   printf("Enter a, b and c of quadratic equation: ");
   scanf("%f%f%f",&a,&b,&c);
    
-  d = b * b - 4 * a * c;
+  d = b * b - 4 * a * c; // d=square(b)-4ac;
   
   if(d < 0){
     printf("Roots are complex number.\n");

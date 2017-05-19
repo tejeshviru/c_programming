@@ -4,7 +4,8 @@
 int main() {
 	char text[100];
 	int begin, middle, end, length = 0;
-	gets(text);
+	printf("Enter input string here:");
+	scanf("%s",text);
 	while ( text[length] != '\0' )
 	      length++;
 	end = length - 1;
