@@ -3,7 +3,9 @@
 
 # Internal Directory Structure
 -- src [Contains all source files of the exercises]
+
 -- __output [ Contains all output files ]
+
 -- Makefile [ Compiles are source code with *.c extension in src directory ]
 
 # Programs
