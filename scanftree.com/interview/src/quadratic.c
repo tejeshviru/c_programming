@@ -2,6 +2,7 @@
 #include<math.h>
 
 // This program uses only stdio.h header calls ( printf and C loop functions such as if, while, switch)
+// quadratic equation is d = -b + sqrt((b*b) - 4*a*c)/2a ; -b - sqrt((b*b) - 4*a*c)/2a
 
 int main(){
   float a,b,c;

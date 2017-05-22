@@ -4,12 +4,12 @@
 
 int main(){
  
-  int input;
+  int input; // Declaring Input Integer
   printf("Please enter any number between 0 to 255:");
-  scanf("%d",&input);
-  if ((input > 255) || (input < 0))
+  scanf("%d",&input); // Scanning Input Integer
+  if ((input > 255) || (input < 0)) // Verify the range of inputs need to be between 0 to 255
 	printf("Wrong input and ascii values range between 0 to 255\n");
   else
-  	printf("ASCII value of character %c is %d\n",input,input);
+  	printf("ASCII value of character %c is %d\n",input,input); // Print Output in character identifier %c 
   return 0;
 }
